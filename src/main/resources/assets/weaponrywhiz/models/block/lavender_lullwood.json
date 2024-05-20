@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "weaponrywhiz:block/lavender_lullwood_top",
+    "side": "weaponrywhiz:block/lavender_lullwood"
+  }
+}
