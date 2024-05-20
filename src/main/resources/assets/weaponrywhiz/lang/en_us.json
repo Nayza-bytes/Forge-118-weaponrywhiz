@@ -2,5 +2,8 @@
   "block.weaponrywhiz.lavender_lullwood": "Lavender Lullwood",
   "block.weaponrywhiz.lavender_lullwood_wood": "Lavender Lullwood Wood",
   "block.weaponrywhiz.stripped_lavender_lullwood": "Stripped Lavender Lullwood",
-  "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Stripped Lavender Lullwood Wood"
+  "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Stripped Lavender Lullwood Wood",
+  "block.weaponrywhiz.lavender_lullwood_planks": "Lavender Lullwood Planks",
+
+  "itemGroup.weaponrywhiz.ww_block_tab": "Weaponry Whiz Blocks"
 }

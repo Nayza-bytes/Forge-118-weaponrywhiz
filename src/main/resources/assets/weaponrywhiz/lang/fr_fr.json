@@ -2,5 +2,8 @@
   "block.weaponrywhiz.lavender_lullwood": "Buche de lavande",
   "block.weaponrywhiz.lavender_lullwood_wood": "Bois de lavande",
   "block.weaponrywhiz.stripped_lavender_lullwood": "Buche de lavande sans ecorce",
-  "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Bois de lavande sans ecorce"
+  "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Bois de lavande sans ecorce",
+  "block.weaponrywhiz.lavender_lullwood_planks": "Planche de bois de lavande",
+
+  "itemGroup.weaponrywhiz.ww_block_tab": "Blocks de Weaponry Whiz"
 }

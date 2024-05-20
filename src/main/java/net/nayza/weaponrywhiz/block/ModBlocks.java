@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nayza.weaponrywhiz.WeaponryWhiz;
+import net.nayza.weaponrywhiz.block.custom.ModFlammablePlanksBlock;
 import net.nayza.weaponrywhiz.block.custom.ModFlammableRotatedPillarBlock;
 import net.nayza.weaponrywhiz.item.ModCreativeModTab;
 import net.nayza.weaponrywhiz.item.ModItems;
@@ -38,6 +39,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRIPPED_LAVENDER_LULLWOOD_WOOD = registerBlock("stripped_lavender_lullwood_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
+            ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
+
+    public static final RegistryObject<Block> LAVENDER_LULLWOOD_PLANKS = registerBlock("lavender_lullwood_planks",
+            () -> new ModFlammablePlanksBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
             ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
 
     /*=================================END BLOCK WOOD=================================*/
