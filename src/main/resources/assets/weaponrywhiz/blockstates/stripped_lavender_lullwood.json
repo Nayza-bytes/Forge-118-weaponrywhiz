@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "weaponrywhiz:block/stripped_lavender_lullwood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {"model": "weaponrywhiz:block/stripped_lavender_lullwood"},
+    "axis=z": {
+      "model": "weaponrywhiz:block/stripped_lavender_lullwood_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -4,6 +4,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -11,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nayza.weaponrywhiz.WeaponryWhiz;
+import net.nayza.weaponrywhiz.block.custom.ModFlammableRotatedPillarBlock;
 import net.nayza.weaponrywhiz.item.ModCreativeModTab;
 import net.nayza.weaponrywhiz.item.ModItems;
 
@@ -23,8 +25,19 @@ public class ModBlocks {
     /*=================================BLOCK WOOD=================================*/
     //lavender lullwood
     public static final RegistryObject<Block> LAVENDER_LULLWOOD = registerBlock("lavender_lullwood",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(10)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
+            ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_LAVENDER_LULLWOOD = registerBlock("stripped_lavender_lullwood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)),
+            ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
+
+    public static final RegistryObject<Block> LAVENDER_LULLWOOD_WOOD = registerBlock("lavender_lullwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)),
+            ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_LAVENDER_LULLWOOD_WOOD = registerBlock("stripped_lavender_lullwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
             ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
 
     /*=================================END BLOCK WOOD=================================*/

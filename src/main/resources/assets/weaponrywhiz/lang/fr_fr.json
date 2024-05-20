@@ -1,3 +1,6 @@
 {
-  "block.weaponrywhiz.lavender_lullwood": "Bois de lavande"
+  "block.weaponrywhiz.lavender_lullwood": "Buche de lavande",
+  "block.weaponrywhiz.lavender_lullwood_wood": "Bois de lavande",
+  "block.weaponrywhiz.stripped_lavender_lullwood": "Buche de lavande sans ecorce",
+  "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Bois de lavande sans ecorce"
 }
