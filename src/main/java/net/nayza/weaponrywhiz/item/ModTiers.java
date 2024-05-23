@@ -44,5 +44,10 @@ public class ModTiers {
     */
     public static final ForgeTier KING_TIER = new ForgeTier(1, 473, 12.0f, 1.2f, 22,
             BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(Items.GOLD_INGOT));
-
+    // King tools tier
+    /* Descriptions
+        One of the most powerful tier of this list
+    */
+    public static final ForgeTier PIXILITE_TIER = new ForgeTier(5, 3500, 10f, 6f, 15,
+            BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.PIXILITE_INGOT.get()));
 }

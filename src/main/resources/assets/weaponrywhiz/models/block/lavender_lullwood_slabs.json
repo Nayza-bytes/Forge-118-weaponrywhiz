@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "weaponrywhiz:block/lavender_lullwood_planks",
+    "top": "weaponrywhiz:block/lavender_lullwood_planks",
+    "side": "weaponrywhiz:block/lavender_lullwood_planks"
+  }
+}

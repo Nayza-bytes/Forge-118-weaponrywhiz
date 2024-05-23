@@ -4,6 +4,13 @@
   "block.weaponrywhiz.stripped_lavender_lullwood": "Buche de lavande sans ecorce",
   "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Bois de lavande sans ecorce",
   "block.weaponrywhiz.lavender_lullwood_planks": "Planche de bois de lavande",
+  "block.weaponrywhiz.lavender_lullwood_stairs": "Escalier en bois de lavande",
+  "block.weaponrywhiz.lavender_lullwood_slabs": "Dalle en bois de lavande",
+
+  "item.weaponrywhiz.pixilite_ingot": "Lingot de Pixilite",
 
   "itemGroup.weaponrywhiz.ww_block_tab": "Blocks de Weaponry Whiz"
+
+
+
 }

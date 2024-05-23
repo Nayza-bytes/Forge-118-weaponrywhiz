@@ -4,6 +4,10 @@
   "block.weaponrywhiz.stripped_lavender_lullwood": "Stripped Lavender Lullwood",
   "block.weaponrywhiz.stripped_lavender_lullwood_wood": "Stripped Lavender Lullwood Wood",
   "block.weaponrywhiz.lavender_lullwood_planks": "Lavender Lullwood Planks",
+  "block.weaponrywhiz.lavender_lullwood_stairs": "Lavender Lullwood Stairs",
+  "block.weaponrywhiz.lavender_lullwood_slabs": "Lavender Lullwood Slabs",
+
+  "item.weaponrywhiz.pixilite_ingot": "Pixilite Ingot",
 
   "itemGroup.weaponrywhiz.ww_block_tab": "Weaponry Whiz Blocks"
 }

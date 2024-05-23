@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "weaponrywhiz:block/lavender_lullwood_slabs"
+    },
+    "type=double": {
+      "model": "weaponrywhiz:block/lavender_lullwood_planks"
+    },
+    "type=top": {
+      "model": "weaponrywhiz:block/lavender_lullwood_slabs_top"
+    }
+  }
+
+}

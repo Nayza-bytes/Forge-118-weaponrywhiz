@@ -5,6 +5,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,7 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.nayza.weaponrywhiz.WeaponryWhiz;
 import net.nayza.weaponrywhiz.block.custom.ModFlammablePlanksBlock;
 import net.nayza.weaponrywhiz.block.custom.ModFlammableRotatedPillarBlock;
-import net.nayza.weaponrywhiz.item.ModCreativeModTab;
+import net.nayza.weaponrywhiz.util.ModCreativeModTab;
 import net.nayza.weaponrywhiz.item.ModItems;
 
 import java.util.function.Supplier;
@@ -44,6 +46,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> LAVENDER_LULLWOOD_PLANKS = registerBlock("lavender_lullwood_planks",
             () -> new ModFlammablePlanksBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
             ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
+
+    public static final RegistryObject<Block> LAVENDER_LULLWOOD_STAIRS = registerBlock("lavender_lullwood_stairs",
+            () -> new StairBlock(() -> ModBlocks.LAVENDER_LULLWOOD_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(0.4f).requiresCorrectToolForDrops().explosionResistance(5)), ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
+
+    public static final RegistryObject<Block> LAVENDER_LULLWOOD_SLABS = registerBlock("lavender_lullwood_slabs",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(0.4f).requiresCorrectToolForDrops().explosionResistance(5)), ModCreativeModTab.WEAPONRY_WHIZ_BLOCK_TAB);
 
     /*=================================END BLOCK WOOD=================================*/
 
