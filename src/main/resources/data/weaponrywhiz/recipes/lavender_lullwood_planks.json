@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "weaponrywhiz:lavender_lullwood_logs"
+    }
+  ],
+  "result": {
+    "item": "weaponrywhiz:lavender_lullwood_planks",
+    "count": 4
+  }
+}
