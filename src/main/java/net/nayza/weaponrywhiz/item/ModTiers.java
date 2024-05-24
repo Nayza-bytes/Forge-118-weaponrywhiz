@@ -35,7 +35,7 @@ public class ModTiers {
         It is use for starter game before getting a full iron set, its cheaper and about the same strenght of iron tools
         Bit less durability tho.
     */
-    public static final ForgeTier SHARP_STONE = new ForgeTier(1, 161, 5.0f, 1.2f, 12,
+    public static final ForgeTier PURPLEFULL_TIER = new ForgeTier(1, 161, 5.0f, 1.2f, 12,
             BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(ItemTags.STONE_TOOL_MATERIALS));
 
     // King tools tier

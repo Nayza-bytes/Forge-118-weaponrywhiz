@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "weaponrywhiz:item/purplefull_stone_sword"
+  }
+}
