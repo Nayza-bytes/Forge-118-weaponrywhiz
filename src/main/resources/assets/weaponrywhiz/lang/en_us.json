@@ -6,8 +6,21 @@
   "block.weaponrywhiz.lavender_lullwood_planks": "Lavender Lullwood Planks",
   "block.weaponrywhiz.lavender_lullwood_stairs": "Lavender Lullwood Stairs",
   "block.weaponrywhiz.lavender_lullwood_slabs": "Lavender Lullwood Slabs",
+  "block.weaponrywhiz.ethereal_stone": "Ethereal Stone",
+  "block.weaponrywhiz.ethereal_smooth_stone": "Ethereal Smooth Stone",
+  "block.weaponrywhiz.ethereal_stone_brick": "Ethereal Stone Brick",
+  "block.weaponrywhiz.ethereal_stone_pillar": "Ethereal Stone Pillar",
+  "block.weaponrywhiz.ethereal_chiseled_stone": "Ethereal Chiseled Stone",
+  "block.weaponrywhiz.ethereal_stone_brick_stairs": "Ethereal Stone Brick Stairs",
+  "block.weaponrywhiz.ethereal_stone_brick_slabs": "Ethereal Stone Brick Slabs",
 
   "item.weaponrywhiz.pixilite_ingot": "Pixilite Ingot",
+  "item.weaponrywhiz.purplefull_stone_ingot": "Purplefull Stone Ingot",
+  "item.weaponrywhiz.purplefull_stone_sword": "Purplefull Stone Sword",
+  "item.weaponrywhiz.purplefull_stone_pickaxe": "Purplefull Stone Pickaxe",
+  "item.weaponrywhiz.purplefull_stone_axe": "Purplefull Stone Axe",
+  "item.weaponrywhiz.purplefull_stone_shovel": "Purplefull Stone Shovel",
+  "item.weaponrywhiz.purplefull_stone_hoe": "Purplefull Stone Hoe",
 
   "itemGroup.weaponrywhiz.ww_block_tab": "Weaponry Whiz Blocks"
 }

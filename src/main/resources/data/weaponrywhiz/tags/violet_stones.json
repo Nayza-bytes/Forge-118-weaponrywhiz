@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "values": [
+  "value": [
     "weaponrywhiz:ethereal_stone",
     "weaponrywhiz:ethereal_stone_brick",
     "weaponrywhiz:ethereal_smooth_stone",
@@ -9,4 +9,5 @@
     "weaponrywhiz:ethereal_stone_brick_stairs",
     "weaponrywhiz:ethereal_stone_brick_slabs"
   ]
+
 }

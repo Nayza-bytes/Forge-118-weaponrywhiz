@@ -6,11 +6,22 @@
   "block.weaponrywhiz.lavender_lullwood_planks": "Planche de bois de lavande",
   "block.weaponrywhiz.lavender_lullwood_stairs": "Escalier en bois de lavande",
   "block.weaponrywhiz.lavender_lullwood_slabs": "Dalle en bois de lavande",
+  "block.weaponrywhiz.ethereal_stone": "Ethereal Stone",
+  "block.weaponrywhiz.ethereal_smooth_stone": "Ethereal Smooth Stone",
+  "block.weaponrywhiz.ethereal_stone_brick": "Ethereal Stone Brick",
+  "block.weaponrywhiz.ethereal_stone_pillar": "Ethereal Stone Pillar",
+  "block.weaponrywhiz.ethereal_chiseled_stone": "Ethereal Chiseled Stone",
+  "block.weaponrywhiz.ethereal_stone_brick_stairs": "Ethereal Stone Brick Stairs",
+  "block.weaponrywhiz.ethereal_stone_brick_slabs": "Ethereal Stone Brick Slabs",
 
   "item.weaponrywhiz.pixilite_ingot": "Lingot de Pixilite",
+  "item.weaponrywhiz.purplefull_stone_ingot": "Lingot de minerai violet",
+  "item.weaponrywhiz.purplefull_stone_sword": "Epee de minerai violet",
+  "item.weaponrywhiz.purplefull_stone_pickaxe": "Pioche de minerai violet",
+  "item.weaponrywhiz.purplefull_stone_axe": "Hache de minerai violet",
+  "item.weaponrywhiz.purplefull_stone_shovel": "Pelle de minerai violet",
+  "item.weaponrywhiz.purplefull_stone_hoe": "Houe de minerai violet",
 
   "itemGroup.weaponrywhiz.ww_block_tab": "Blocks de Weaponry Whiz"
-
-
 
 }

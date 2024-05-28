@@ -30,24 +30,19 @@ public class ModTiers {
 
     */
 
-    // Sharp stone tools tier
-    /* Descriptions
-        It is use for starter game before getting a full iron set, its cheaper and about the same strenght of iron tools
-        Bit less durability tho.
-    */
-    public static final ForgeTier PURPLEFULL_TIER = new ForgeTier(1, 161, 5.0f, 1.2f, 12,
+    // =============================START GAME TIER=============================
+    // Sharp stone tools tier.
+    public static final ForgeTier PURPLEFULL_TIER = new ForgeTier(1, 161, 4.1f, 1.3f, 12,
             BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(ItemTags.STONE_TOOL_MATERIALS));
 
     // King tools tier
-    /* Descriptions
-        As powerful as gold but with more weapons and more durability, bit more costly
-    */
     public static final ForgeTier KING_TIER = new ForgeTier(1, 473, 12.0f, 1.2f, 22,
             BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(Items.GOLD_INGOT));
-    // King tools tier
-    /* Descriptions
-        One of the most powerful tier of this list
-    */
+
+    // =============================MID GAME TIER=============================
+
+    // =============================END GAME TIER=============================
+    // Pixilite Tier
     public static final ForgeTier PIXILITE_TIER = new ForgeTier(5, 3500, 10f, 6f, 15,
             BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.PIXILITE_INGOT.get()));
 }

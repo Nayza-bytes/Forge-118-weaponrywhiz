@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "weaponrywhiz:ethereal_stone"
+  },
+  "result": "weaponrywhiz:ethereal_smooth_stone",
+  "experience": 1,
+  "cookingtime": 300
+}

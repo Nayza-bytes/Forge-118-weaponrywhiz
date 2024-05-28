@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-
+    "weaponrywhiz:lavender_lullwood",
+    "weaponrywhiz:lavender_lullwood_wood",
+    "weaponrywhiz:stripped_lavender_lullwood",
+    "weaponrywhiz:stripped_lavender_lullwood_wood",
+    "weaponrywhiz:lavender_lullwood_planks",
+    "weaponrywhiz:lavender_lullwood_stairs",
+    "weaponrywhiz:lavender_lullwood_slabs"
   ]
 }

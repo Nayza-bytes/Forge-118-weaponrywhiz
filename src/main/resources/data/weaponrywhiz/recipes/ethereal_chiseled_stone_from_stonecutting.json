@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "weaponrywhiz:ethereal_smooth_stone"
+  },
+  "result": "weaponrywhiz:ethereal_chiseled_stone",
+  "count": 1
+}

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "weaponrywhiz:block/ethereal_stone_brick_slabs"
+    },
+    "type=double": {
+      "model": "weaponrywhiz:block/ethereal_stone_brick"
+    },
+    "type=top": {
+      "model": "weaponrywhiz:block/ethereal_stone_brick_slabs_top"
+    }
+  }
+
+}

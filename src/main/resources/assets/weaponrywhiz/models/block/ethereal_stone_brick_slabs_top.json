@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "weaponrywhiz:block/violet_stone_bricks",
+    "top": "weaponrywhiz:block/violet_stone_bricks",
+    "side": "weaponrywhiz:block/violet_stone_bricks"
+  }
+}
